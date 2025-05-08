@@ -30,7 +30,7 @@ export async function getIdJogo(id){
 }
 
 //////////////////////////////////////////////////// Função para atualizar um Jogo existente  //////////////////////////////////////////////////////////////////////////////////////
-async function putJogo(id,Jogo){
+export async function putJogo(id,Jogo){
     const url = ``
     const options = {
         method: 'PUT',
